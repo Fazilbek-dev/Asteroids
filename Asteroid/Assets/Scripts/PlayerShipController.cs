@@ -26,7 +26,7 @@ public class PlayerShipController : MonoBehaviour
     private void Awake()
     {
         _buttonLose.SetActive(false);
-        _health = GetComponent<Enemy>();
+        _health = GetComponent<Health>();
         _audioSource = GetComponent<AudioSource>();
         _rb2D = GetComponent<Rigidbody2D>();
         _fireFromShip.SetActive(false);

@@ -25,7 +25,7 @@ public class PlayerBullet : MonoBehaviour
         {
             if (hitinfo.collider.CompareTag("Enemy"))
             {
-                hitinfo.collider.GetComponent<Enemy>().TakeDamage(_damage);
+                hitinfo.collider.GetComponent<Health>().TakeDamage(_damage);
             }
             gameObject.SetActive(false);
         }

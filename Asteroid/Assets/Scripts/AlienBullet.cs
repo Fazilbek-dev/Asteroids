@@ -28,7 +28,7 @@ public class AlienBullet : MonoBehaviour
         {
             if (hitinfo.collider.CompareTag("Player"))
             {
-                hitinfo.collider.GetComponent<Enemy>().TakeDamage(_damage);
+                hitinfo.collider.GetComponent<Health>().TakeDamage(_damage);
             }
             Destroy(this.gameObject);
         }

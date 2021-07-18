@@ -8,7 +8,7 @@ public class GameManager : MonoBehaviour
     [SerializeField] private Text _scoreText;
     [SerializeField] private Text _healthText;
     [SerializeField] private Text _mouseCotrollerText;
-    [SerializeField] private Enemy _healthScore;
+    [SerializeField] private Health _healthScore;
     [SerializeField] private GameObject _menu;
     [SerializeField] private GameObject _bestScore;
     [SerializeField] private GameObject _settings;
@@ -96,6 +96,8 @@ public class GameManager : MonoBehaviour
     {
         
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        Time.timeScale = 1f;
+        enabled = true;
         Score._score = 0;
     }
 
