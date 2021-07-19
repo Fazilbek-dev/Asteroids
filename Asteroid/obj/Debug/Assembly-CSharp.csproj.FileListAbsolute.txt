@@ -1,2 +1,0 @@
-D:\UnityProject\Asteroid\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
-D:\UnityProject\Asteroid\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
